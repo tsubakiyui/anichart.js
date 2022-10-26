@@ -1,3 +1,4 @@
-export const font = 'Sarasa Mono SC'
-export const fontSize = 24
-export const version = '3.0.1'
+const pkg = require("../../package.json");
+export let font = "Source Han Sans CN";
+export let fontSize = 24;
+export const version = pkg.version;
